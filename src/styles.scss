@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+.container{
+    margin: 20px;
+}
+
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+$primary-color-dark:   #512DA8;
+$primary-color:        #673AB7;
+$primary-color-light:  #D1C4E9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FFC107;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+$background-more-dark:  #4527A0;
+
+.btn-primary{
+    background-color: $background-dark;
+    color: $primary-color-light;
+}
+
+.btn-secondary{
+    background-color: $accent-color;
+    color: black;
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+}
